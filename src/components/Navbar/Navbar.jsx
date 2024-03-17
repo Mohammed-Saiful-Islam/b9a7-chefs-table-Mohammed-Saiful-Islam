@@ -16,8 +16,8 @@ const Navbar = () => {
                     <a className='hover:underline' href="">Search</a>
                 </div>
                 <div className='flex items-center space-x-2 md:space-x-6'>
-                    <div className='flex items-center border-2 border-black border-solid p-2 rounded-xl'><a href=""><img className='min-w-8' src={SearchIcon} alt="" />
-                    </a> <input className='border-none' type="text" /></div>
+                    <div className='flex items-center border-2 border-black border-solid  rounded-xl pr-0.5'><a href=""><img className='min-w-8' src={SearchIcon} alt="" />
+                    </a> <input className='border-none outline-none' type="text" /></div>
                     <div className='rounded-full '><a href=""><img className='min-w-8' src={PersonIcon} alt="" /></a></div>
                 </div>
             </div>
