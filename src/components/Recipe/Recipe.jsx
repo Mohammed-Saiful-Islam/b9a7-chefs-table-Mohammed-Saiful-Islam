@@ -21,7 +21,7 @@ const Recipe = ({ recipe }) => {
                     <div className='flex space-x-3 text-xl font-medium'><img src={FireIcon} alt="" /><p>{calories}</p></div>
                 </div>
                 <br />
-                <button className='bg-green-600 p-3 rounded-3xl text-white border-none'>Want to Cook</button>
+                <button className='bg-green-600 p-3 rounded-3xl text-white border-none hover:bg-orange-800'>Want to Cook</button>
             </div>
         </div>
     );
