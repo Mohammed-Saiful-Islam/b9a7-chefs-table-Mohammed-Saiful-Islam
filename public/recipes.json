@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "detail": "Classic Italian pasta dish with eggs, cheese, and pancetta",
+        "ingredients": [
+            "400g spaghetti",
+            "150g pancetta or bacon, diced",
+            "3 large eggs",
+            "75g grated Parmesan cheese",
+            "Salt and black pepper to taste",
+            "Fresh parsley, chopped (for garnish)"
+        ],
+        "time": "20 min",
+        "calories": "450 calories",
+        "img": "https://www.freepik.com/free-photo/spaghetti-with-mixed-ingredients-white-plate_10464551.htm#query=spaghetti%20carbonara&position=0&from_view=keyword&track=ais&uuid=1bb503e9-fed9-45ca-9c96-dad3dde6b22d"
+    },
+    {
+        "id": 2,
+        "name": "Chicken Stir-Fry",
+        "detail": "Quick and easy stir-fry with chicken, vegetables, and soy sauce",
+        "ingredients": [
+            "550g chicken breast, sliced",
+            "120ml soy sauce",
+            "200g broccoli florets",
+            "1 red bell pepper, sliced",
+            "150g snap peas",
+            "3 cloves garlic, minced",
+            "2 tbsp vegetable oil",
+            "Cooked rice (for serving)"
+        ],
+        "time": "25 min",
+        "calories": "380 calories",
+        "img": "https://www.freepik.com/free-photo/chicken-stir-fry-vegetables-isolated-white-background_25288322.htm#query=chicken%20stir%20fry&position=1&from_view=keyword&track=ais&uuid=b27294d9-79db-40e8-9edc-e6253033254d"
+    },
+    {
+        "id": 3,
+        "name": "Vegetable Curry",
+        "detail": "Flavorful vegetarian curry with mixed vegetables and spices",
+        "ingredients": [
+            "2 large potatoes, diced",
+            "1 large carrot, sliced",
+            "1 onion, chopped",
+            "200g cauliflower florets",
+            "200g green beans, trimmed and halved",
+            "400ml coconut milk",
+            "2 tbsp curry powder",
+            "2 cloves garlic, minced",
+            "2 tbsp vegetable oil",
+            "Cooked rice or naan bread (for serving)"
+        ],
+        "time": "30 min",
+        "calories": "320 calories",
+        "img": "https://www.freepik.com/free-photo/front-view-tasty-vegetable-salad-inside-plate-blue-table_17062486.htm#query=vegetable%20curry&position=0&from_view=keyword&track=ais&uuid=49445914-2ab6-4069-841a-cbc1b1eac04e"
+    },
+    {
+        "id": 4,
+        "name": "Greek Salad",
+        "detail": "Refreshing salad with tomatoes, cucumbers, olives, and feta cheese",
+        "ingredients": [
+            "2 large tomatoes, chopped",
+            "1 cucumber, diced",
+            "1 red onion, thinly sliced",
+            "100g Kalamata olives",
+            "200g feta cheese, crumbled",
+            "2 tbsp olive oil",
+            "1 tbsp red wine vinegar",
+            "1 tsp dried oregano",
+            "Salt and black pepper to taste"
+        ],
+        "time": "15 min",
+        "calories": "220 calories",
+        "img": "https://www.freepik.com/free-photo/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil-healthy-food_7677591.htm#fromView=search&page=1&position=1&uuid=68bcd869-d145-465b-8cdd-83cc1cad34fe"
+    },
+    {
+        "id": 5,
+        "name": "Banana Bread",
+        "detail": "Moist and delicious banana bread with walnuts",
+        "ingredients": [
+            "3 ripe bananas, mashed",
+            "200g all-purpose flour",
+            "100g unsalted butter, melted",
+            "100g granulated sugar",
+            "2 eggs",
+            "1 tsp baking powder",
+            "1/2 tsp baking soda",
+            "1/2 tsp salt",
+            "1/2 cup chopped walnuts"
+        ],
+        "time": "1 hr",
+        "calories": "280 calories",
+        "img": "https://www.freepik.com/free-photo/top-view-banana-bun_12456220.htm#fromView=search&page=1&position=1&uuid=41fb73db-5156-44ca-aab9-aff2f22675c1"
+    },
+    {
+        "id": 6,
+        "name": "Caprese Salad",
+        "detail": "Simple and elegant salad with tomatoes, fresh mozzarella, and basil",
+        "ingredients": [
+            "4 large tomatoes, sliced",
+            "250g fresh mozzarella cheese, sliced",
+            "1/4 cup fresh basil leaves",
+            "2 tbsp balsamic vinegar",
+            "2 tbsp extra virgin olive oil",
+            "Salt and black pepper to taste"
+        ],
+        "time": "10 min",
+        "calories": "210 calories",
+        "img": "https://www.freepik.com/free-photo/tomatoes-basil-mozzarella_6872455.htm#fromView=search&page=1&position=1&uuid=f56c8e9d-24e9-4e53-8e8b-fdbbfcc96ca2"
+    }
+]
