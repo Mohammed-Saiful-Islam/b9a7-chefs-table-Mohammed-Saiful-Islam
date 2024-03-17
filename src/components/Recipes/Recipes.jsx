@@ -13,8 +13,8 @@ const Recipes = () => {
     }, [])
     return (
         <div className="w-[90%] max-w-6xl my-0 mx-auto">
-            <div className="md:w-[60%]">
-                <h1 className="text-4xl">Recipes: {recipes.length}</h1>
+            <h1 className="text-4xl">Recipes: {recipes.length}</h1>
+            <div className="md:w-[60%] md:grid md:grid-cols-2">
                 {
                     recipes.map(recipe => <Recipe key={recipe.id} recipe={recipe}></Recipe>)
                 }

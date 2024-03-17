@@ -6,8 +6,8 @@ const Recipe = ({ recipe }) => {
     console.log(recipe);
     const { img, title, details, ingredients, time, calories } = recipe;
     return (
-        <div>
-            <div>
+        <div className=''>
+            <div className='border-2 border-black border-solid p-2 min-h-[700px]'>
                 <img src={img} alt="" />
                 <h1 className='text-3xl font-bold'>{title}
                 </h1>
@@ -20,6 +20,8 @@ const Recipe = ({ recipe }) => {
                     <div className='flex space-x-3 text-xl font-medium'><img src={TimeIcon} alt="" /> <p>{time}</p></div>
                     <div className='flex space-x-3 text-xl font-medium'><img src={FireIcon} alt="" /><p>{calories}</p></div>
                 </div>
+                <br />
+                <button className='bg-green-600 p-3 rounded-3xl text-white border-none'>Want to Cook</button>
             </div>
         </div>
     );
