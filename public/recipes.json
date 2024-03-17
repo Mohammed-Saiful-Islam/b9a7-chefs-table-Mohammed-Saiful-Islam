@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Spaghetti Carbonara",
-        "detail": "Classic Italian pasta dish with eggs, cheese, and pancetta",
+        "title": "Spaghetti Carbonara",
+        "details": "Classic Italian pasta dish with eggs, cheese, and pancetta",
         "ingredients": [
             "400g spaghetti",
             "150g pancetta or bacon, diced",
@@ -13,12 +13,12 @@
         ],
         "time": "20 min",
         "calories": "450 calories",
-        "img": "https://www.freepik.com/free-photo/spaghetti-with-mixed-ingredients-white-plate_10464551.htm#query=spaghetti%20carbonara&position=0&from_view=keyword&track=ais&uuid=1bb503e9-fed9-45ca-9c96-dad3dde6b22d"
+        "img": "https://img.freepik.com/free-photo/spaghetti-with-mixed-ingredients-white-plate_114579-15091.jpg?w=1380&t=st=1710690081~exp=1710690681~hmac=96dc02490e4e7dbccf34ec23a872ce575e5ed67935e5b92ab1991d274fdb6c62"
     },
     {
         "id": 2,
-        "name": "Chicken Stir-Fry",
-        "detail": "Quick and easy stir-fry with chicken, vegetables, and soy sauce",
+        "title": "Chicken Stir-Fry",
+        "details": "Quick and easy stir-fry with chicken, vegetables, and soy sauce",
         "ingredients": [
             "550g chicken breast, sliced",
             "120ml soy sauce",
@@ -31,12 +31,12 @@
         ],
         "time": "25 min",
         "calories": "380 calories",
-        "img": "https://www.freepik.com/free-photo/chicken-stir-fry-vegetables-isolated-white-background_25288322.htm#query=chicken%20stir%20fry&position=1&from_view=keyword&track=ais&uuid=b27294d9-79db-40e8-9edc-e6253033254d"
+        "img": "https://img.freepik.com/free-photo/chicken-stir-fry-vegetables-isolated-white-background_123827-21243.jpg?w=1380&t=st=1710690147~exp=1710690747~hmac=86ea1e699e74fff795ad30c661363935d412c61319edf3a0984d6b49aa7b31bd"
     },
     {
         "id": 3,
-        "name": "Vegetable Curry",
-        "detail": "Flavorful vegetarian curry with mixed vegetables and spices",
+        "title": "Vegetable Curry",
+        "details": "Flavorful vegetarian curry with mixed vegetables and spices",
         "ingredients": [
             "2 large potatoes, diced",
             "1 large carrot, sliced",
@@ -51,12 +51,12 @@
         ],
         "time": "30 min",
         "calories": "320 calories",
-        "img": "https://www.freepik.com/free-photo/front-view-tasty-vegetable-salad-inside-plate-blue-table_17062486.htm#query=vegetable%20curry&position=0&from_view=keyword&track=ais&uuid=49445914-2ab6-4069-841a-cbc1b1eac04e"
+        "img": "https://img.freepik.com/free-photo/meat-dish-with-vegetables_144627-18081.jpg?t=st=1710690763~exp=1710694363~hmac=7b2cdae68512bce41cd1d8549d20bc941bb5d3e9dfa3845f2450ff7fb1c579d1&w=740"
     },
     {
         "id": 4,
-        "name": "Greek Salad",
-        "detail": "Refreshing salad with tomatoes, cucumbers, olives, and feta cheese",
+        "title": "Greek Salad",
+        "details": "Refreshing salad with tomatoes, cucumbers, olives, and feta cheese",
         "ingredients": [
             "2 large tomatoes, chopped",
             "1 cucumber, diced",
@@ -70,12 +70,12 @@
         ],
         "time": "15 min",
         "calories": "220 calories",
-        "img": "https://www.freepik.com/free-photo/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil-healthy-food_7677591.htm#fromView=search&page=1&position=1&uuid=68bcd869-d145-465b-8cdd-83cc1cad34fe"
+        "img": "https://img.freepik.com/free-photo/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil-healthy-food_2829-19692.jpg?w=740&t=st=1710690316~exp=1710690916~hmac=ec4ddfff0b207c01cfba93783e6304a723353cd39c976bc7511201348d8c648e"
     },
     {
         "id": 5,
-        "name": "Banana Bread",
-        "detail": "Moist and delicious banana bread with walnuts",
+        "title": "Banana Bread",
+        "details": "Moist and delicious banana bread with walnuts",
         "ingredients": [
             "3 ripe bananas, mashed",
             "200g all-purpose flour",
@@ -89,12 +89,12 @@
         ],
         "time": "1 hr",
         "calories": "280 calories",
-        "img": "https://www.freepik.com/free-photo/top-view-banana-bun_12456220.htm#fromView=search&page=1&position=1&uuid=41fb73db-5156-44ca-aab9-aff2f22675c1"
+        "img": "https://img.freepik.com/free-photo/top-view-banana-bun_23-2148858404.jpg?w=740&t=st=1710690363~exp=1710690963~hmac=05d53f70d6d90a64c5b13faa22ce345c3fcbe0a4e84b9f1ab60ba35ae9560e12"
     },
     {
         "id": 6,
-        "name": "Caprese Salad",
-        "detail": "Simple and elegant salad with tomatoes, fresh mozzarella, and basil",
+        "title": "Caprese Salad",
+        "details": "Simple and elegant salad with tomatoes, fresh mozzarella, and basil",
         "ingredients": [
             "4 large tomatoes, sliced",
             "250g fresh mozzarella cheese, sliced",
@@ -105,6 +105,6 @@
         ],
         "time": "10 min",
         "calories": "210 calories",
-        "img": "https://www.freepik.com/free-photo/tomatoes-basil-mozzarella_6872455.htm#fromView=search&page=1&position=1&uuid=f56c8e9d-24e9-4e53-8e8b-fdbbfcc96ca2"
+        "img": "https://img.freepik.com/free-photo/tomatoes-basil-mozzarella_144627-15425.jpg?w=740&t=st=1710690399~exp=1710690999~hmac=f898a528ed500d2a6c1d99a4e9af01612d8072e1b2a48aa56195805ce7eee6e4"
     }
 ]
