@@ -7,12 +7,17 @@ import CurrentlyCooking from "../CurrentlyCooking/CurrentlyCooking";
 
 const Recipes = () => {
     const [recipes, setRecipes] = useState([]);
+    const [recipe, setRecipe] = useState([]);
+
     useEffect(() => {
         fetch('recipes.json')
             .then(res => res.json())
             .then(data => setRecipes(data))
-        console.log(recipes);
     }, [])
+    const handleRecipe = (p) => {
+        setRecipe(p)
+    }
+    console.log(recipe);
     return (
         <div className="w-[90%] max-w-6xl my-0 mx-auto mt-2 md:mt-6">
             <div className="space-y-6"><h1 className="lexend-font text-2xl md:text-5xl font-bold text-center text-black">Our Recipes</h1>
@@ -23,12 +28,84 @@ const Recipes = () => {
             <div className="md:flex">
                 <div className="md:w-[60%] md:grid md:grid-cols-2">
                     {
-                        recipes.map(recipe => <Recipe key={recipe.id} recipe={recipe}></Recipe>)
+                        recipes.map(recipe => <Recipe key={recipe.id} handleRecipe={handleRecipe} recipe={recipe}></Recipe>)
                     }
                 </div>
                 <div className="md:w-[40%]">
-                    <WantToCook></WantToCook>
-                    <CurrentlyCooking></CurrentlyCooking>
+                    <div>
+                        <div className="">
+                            <h1 className="text-center text-3xl font-bold">Want to cook: <span>0</span></h1>
+                            <hr />
+                            <div className="p-2">
+                                <div>
+                                    <div className="w-[80%]">
+                                        <table className=" flex justify-evenly">
+                                            <th>Name</th>
+                                            <th>Time</th>
+                                            <th>Calories</th>
+                                        </table>
+                                    </div>
+                                    <div className="flex">
+                                        <div className="w-[80%] ">
+                                            <table className="flex justify-between text-xl font-medium">
+                                                <p>0</p>
+                                                <td className="">{recipe.title}</td>
+                                                <td>{recipe.time}</td>
+                                                <td>{recipe.calories}</td>
+                                            </table>
+                                        </div>
+                                        <div>
+                                            <button className="p-3 bg-green-600 text-white rounded-3xl hover:bg-orange-600 border-none">Preparing</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div className="">
+                                <h1 className="text-center text-3xl font-bold">Want to cook: <span>0</span></h1>
+                                <hr />
+                                <div className="p-2">
+                                    <div>
+                                        <div className="">
+                                            <table className=" flex justify-evenly">
+                                                <th>Name</th>
+                                                <th>Time</th>
+                                                <th>Calories</th>
+                                            </table>
+                                        </div>
+                                        <div className="">
+                                            <div className="">
+                                                <table className="flex justify-between">
+                                                    <p>0</p>
+                                                    <td>___________</td>
+                                                    <td>___________</td>
+                                                    <td>___________</td>
+                                                </table>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div className="">
+                                        <div className="flex justify-end gap-6">
+                                            <div>
+                                                <div><p>Total Time =</p></div>
+                                                <div><p>0 minutes </p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div><p>Total Calories =</p></div>
+                                                <div><p>0 Caloroies </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -24,7 +24,7 @@ const WantToCook = () => {
                                 </table>
                             </div>
                             <div>
-                                <button>Preparing</button>
+                                <button className="p-3 bg-green-600 text-white rounded-3xl hover:bg-orange-600 border-none">Preparing</button>
                             </div>
                         </div>
                     </div>

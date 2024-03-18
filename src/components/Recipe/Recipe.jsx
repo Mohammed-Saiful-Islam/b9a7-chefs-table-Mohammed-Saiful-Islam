@@ -2,8 +2,8 @@ import TimeIcon from '../../assets/time.svg';
 import FireIcon from '../../assets/fire.svg';
 import PropTypes from 'prop-types';
 
-const Recipe = ({ recipe }) => {
-    console.log(recipe);
+const Recipe = ({ recipe,handleRecipe }) => {
+    // console.log(recipe);
     const { img, title, details, ingredients, time, calories } = recipe;
     return (
         <div className=''>
@@ -21,7 +21,7 @@ const Recipe = ({ recipe }) => {
                     <div className='flex space-x-3 text-xl font-medium'><img src={FireIcon} alt="" /><p>{calories}</p></div>
                 </div>
                 <br />
-                <button onClick={()=>handleWantToCook(recipe)} className='bg-green-600 p-3 rounded-3xl text-white border-none hover:bg-orange-800'>Want to Cook</button>
+                <button onClick={()=>handleRecipe(recipe)} className='bg-green-600 p-3 rounded-3xl text-white border-none hover:bg-orange-800'>Want to Cook</button>
             </div>
         </div>
     );
