@@ -1,12 +1,10 @@
-import { useState } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import Recipes from './components/Recipes/Recipes'
-import WantToCook from './components/WantToCook/WantToCook'
 
 function App() {
-  
+
   return (
     <>
       <div className='hidden'>
@@ -17,9 +15,6 @@ function App() {
       </div>
       <div>
         <Recipes></Recipes>
-      </div>
-      <div><WantToCook>
-      </WantToCook>
       </div>
     </>
   )

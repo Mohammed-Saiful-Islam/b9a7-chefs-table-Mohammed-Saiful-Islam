@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Recipe from "../Recipe/Recipe";
 import PropTypes from 'prop-types'
+import WantToCook from "../WantToCook/WantToCook";
+import CurrentlyCooking from "../CurrentlyCooking/CurrentlyCooking";
 
 const Recipes = () => {
     const [recipes, setRecipes] = useState([]);
@@ -18,10 +20,16 @@ const Recipes = () => {
 
             </div>
             <h1 className="text-4xl">Recipes: {recipes.length}</h1>
-            <div className="md:w-[60%] md:grid md:grid-cols-2">
-                {
-                    recipes.map(recipe => <Recipe key={recipe.id} recipe={recipe}></Recipe>)
-                }
+            <div className="md:flex">
+                <div className="md:w-[60%] md:grid md:grid-cols-2">
+                    {
+                        recipes.map(recipe => <Recipe key={recipe.id} recipe={recipe}></Recipe>)
+                    }
+                </div>
+                <div className="md:w-[40%]">
+                    <WantToCook></WantToCook>
+                    <CurrentlyCooking></CurrentlyCooking>
+                </div>
             </div>
         </div>
     );
