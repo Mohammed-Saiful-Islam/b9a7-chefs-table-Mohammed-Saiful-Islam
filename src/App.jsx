@@ -7,10 +7,10 @@ function App() {
   
   return (
     <>
-      <div className='hidden'>
+      <div className=''>
         <Navbar></Navbar>
       </div>
-      <div className='hidden'>
+      <div className=''>
         <Banner></Banner>
       </div>
       <div>

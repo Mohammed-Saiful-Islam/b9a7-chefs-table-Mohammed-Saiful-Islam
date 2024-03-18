@@ -17,7 +17,7 @@ const Recipes = () => {
     const handleRecipe = (p) => {
         setRecipe(p)
     }
-    console.log(recipe);
+    console.log(setRecipe.length);
     return (
         <div className="w-[90%] max-w-6xl my-0 mx-auto mt-2 md:mt-6">
             <div className="space-y-6"><h1 className="lexend-font text-2xl md:text-5xl font-bold text-center text-black">Our Recipes</h1>
@@ -65,7 +65,7 @@ const Recipes = () => {
                     <div>
                         <div>
                             <div className="">
-                                <h1 className="text-center text-3xl font-bold">Want to cook: <span>0</span></h1>
+                                <h1 className="text-center text-3xl font-bold">Currently Cooking: <span>0</span></h1>
                                 <hr />
                                 <div className="p-2">
                                     <div>
@@ -80,9 +80,9 @@ const Recipes = () => {
                                             <div className="">
                                                 <table className="flex justify-between">
                                                     <p>0</p>
-                                                    <td>___________</td>
-                                                    <td>___________</td>
-                                                    <td>___________</td>
+                                                    <td className="">{recipe.title}</td>
+                                                <td>{recipe.time}</td>
+                                                <td>{recipe.calories}</td>
                                                 </table>
                                             </div>
 
@@ -92,12 +92,12 @@ const Recipes = () => {
                                         <div className="flex justify-end gap-6">
                                             <div>
                                                 <div><p>Total Time =</p></div>
-                                                <div><p>0 minutes </p>
+                                                <div><p>{recipe.time} </p>
                                                 </div>
                                             </div>
                                             <div>
                                                 <div><p>Total Calories =</p></div>
-                                                <div><p>0 Caloroies </p>
+                                                <div><p>{recipe.calories} </p>
                                                 </div>
                                             </div>
                                         </div>
